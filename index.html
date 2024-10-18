@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio of Andre Ndong Nto - Aspiring Software Engineer and Data Scientist">
+    <title>Andre Ndong Nto | Portfolio</title>
+    <style>
+        /* Global Styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Helvetica Neue', Arial, sans-serif;
+            line-height: 1.6;
+            background-color: #f0f0f0;
+            color: #333;
+        }
+
+        a {
+            text-decoration: none;
+            color: inherit;
+        }
+
+        h1, h2, h3 {
+            margin-bottom: 10px;
+        }
+
+        p {
+            margin-bottom: 15px;
+            line-height: 1.7;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        /* Header */
+        header {
+            background-color: #1f1f1f;
+            color: #fff;
+            padding: 30px 0;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 3em;
+            margin-bottom: 10px;
+        }
+
+        header p {
+            font-size: 1.2em;
+            font-weight: 300;
+        }
+
+        nav {
+            margin: 20px 0;
+        }
+
+        nav a {
+            margin: 0 15px;
+            font-size: 1.1em;
+            padding-bottom: 5px;
+            border-bottom: 2px solid transparent;
+        }
+
+        nav a:hover {
+            border-bottom: 2px solid #00aaff;
+        }
+
+        /* Section Styles */
+        section {
+            max-width: 1000px;
+            margin: 30px auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+        }
+
+        h2 {
+            color: #00aaff;
+            font-size: 2em;
+            border-bottom: 3px solid #00aaff;
+            display: inline-block;
+            margin-bottom: 20px;
+        }
+
+        .skills ul {
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        .skills li {
+            background-color: #00aaff;
+            color: #fff;
+            padding: 10px 15px;
+            margin: 5px;
+            border-radius: 5px;
+            font-size: 1.1em;
+        }
+
+        .projects, .experience, .education {
+            margin-bottom: 40px;
+        }
+
+        .project, .job, .education-item {
+            margin-bottom: 30px;
+        }
+
+        .project h3, .job h3 {
+            font-size: 1.4em;
+            margin-bottom: 5px;
+            color: #333;
+        }
+
+        .project p, .job p {
+            color: #666;
+        }
+
+        .project h3::before, .job h3::before {
+            content: "▶ ";
+            color: #00aaff;
+        }
+
+        .project-details {
+            background-color: #f9f9f9;
+            padding: 15px;
+            border-radius: 8px;
+        }
+
+        /* Contact Section */
+        .contact-info {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            text-align: center;
+        }
+
+        .contact-info div {
+            width: 30%;
+            background-color: #f7f7f7;
+            padding: 20px;
+            margin: 10px;
+            border-radius: 8px;
+            box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        footer {
+            background-color: #1f1f1f;
+            color: #fff;
+            text-align: center;
+            padding: 15px 0;
+            margin-top: 50px;
+        }
+
+        footer a {
+            color: #00aaff;
+        }
+
+        /* Media Queries */
+        @media (max-width: 768px) {
+            .contact-info div {
+                width: 100%;
+                margin: 10px 0;
+            }
+
+            nav a {
+                font-size: 1em;
+                margin: 0 10px;
+            }
+
+            header h1 {
+                font-size: 2.5em;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>ANDRE NDONG NTO</h1>
+        <p>Aspiring Software Engineer & Data Scientist | 2nd Year Computer Science BSc (Hons)</p>
+        <nav>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#experience">Experience</a>
+            <a href="#education">Education</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>
+            I am a passionate second-year Computer Science student focused on software engineering, data science, and artificial intelligence. My drive is to leverage technology to solve real-world problems, with a particular interest in machine learning and full-stack web development. I am eager to work on meaningful projects and internships that align with my skills and interests.
+        </p>
+    </section>
+
+    <section id="skills" class="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>Python</li>
+            <li>Java</li>
+            <li>C++</li>
+            <li>JavaScript</li>
+            <li>SQL</li>
+            <li>C</li>
+            <li>HTML & CSS</li>
+            <li>PHP</li>
+            <li>Git & GitHub</li>
+        </ul>
+    </section>
+
+    <section id="projects" class="projects">
+        <h2>Projects</h2>
+        <div class="project">
+            <h3>Multiplayer Strategy Game in Java</h3>
+            <div class="project-details">
+                <p><strong>Technologies:</strong> Python, Java, Scikit-Learn, Matplotlib</p>
+                <p>
+                    •	Led a team of 4 in developing a turn-based multiplayer game using Java, demonstrating proficiency in object-oriented design and collaborative software development.<br>
+                    •	Applied Agile methodology, breaking down the project into smaller chunks.<br>
+                    •	Implemented complex game mechanics, including real-time user input handling                    
+                </p>
+            </div>
+        </div>
+
+        <div class="project">
+            <h3>Personal Portfolio Website</h3>
+            <div class="project-details">
+                <p><strong>Technologies:</strong> HTML, CSS, JavaScript</p>
+                <p>
+                    Built and deployed a responsive portfolio website using modern web development practices to showcase my projects and skills. Hosted on GitHub Pages.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section id="experience" class="experience">
+        <h2>Experience</h2>
+        <div class="job">
+            <h3>Junior Software Developer (Part-Time)</h3>
+            <div class="project-details">
+                <p><strong>Debolonia Corporation | Jul 2024 - Sept 2024</strong></p>
+                <p>
+                    Collaborated with a team to develop a web application for the Construction Company. Worked on full-stack development using Python (Flask) and React, optimizing API response times and improving performance by 20%.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section id="education" class="education">
+        <h2>Education</h2>
+
+        <div class="education-item">
+            <p><strong>Foundation Degree in Computer Science</strong></p>
+            <p>International College Dundee, Dundee, Scotland | Jan 2024 - Aug 2024</p>
+            <p><strong>Relevant Courses:</strong> Data Structures & Algorithms, Data Analysis, Web Development, Database Systems, Software Development</p>
+        </div>
+
+        <div class="education-item">
+            <p><strong>Bsc (Hons) Computer Science</strong></p>
+            <p>University of Dundee, Dundee, Scotland | Jan 2024 - Present</p>
+            <p><strong>Relevant Courses:</strong> Data Structures & Algorithms, Operating Systems, Machine Learning & AI, C++ Programming</p>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <div class="contact-info">
+            <div>
+                <p>Email: <a href="https://ndongbenoitxvi1@gmail.com">ndongbenoitxvi1@gmail.com</a></p>
+            </div>
+            <div>
+                <p>GitHub: <a href="https://github.com/NDONG237" target="_blank">https://github.com/NDONG237</a></p>
+            </div>
+            <div>
+                <p>Linkedin: <a href="https://linkedin.com/in/andre-ndong-nto" target="_blank">https://linkedin.com/in/andre-ndong-nto</a></p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Andre Ndong Nto | All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
